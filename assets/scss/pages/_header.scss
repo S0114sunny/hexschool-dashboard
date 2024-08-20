@@ -1,0 +1,11 @@
+.navbar {
+    width: 296px;
+
+    .nav-item {
+        font-weight: bold;
+
+        &:hover {
+            background-color: $gray-200;
+        }
+    }
+}
