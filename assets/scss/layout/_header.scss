@@ -1,4 +1,11 @@
-.header{
-  background: #69F0AE;
-  font-size: 64px;
+aside.navbar {
+    width: 296px;
+
+    .nav-item {
+        font-weight: bold;
+
+        &:hover {
+            background-color: $gray-200;
+        }
+    }
 }

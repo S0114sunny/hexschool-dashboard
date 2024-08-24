@@ -21,3 +21,8 @@ a {
     display: inline-block;
     color: inherit;
 }
+
+.content{
+    width: calc(100% - 296px);
+    margin-left: auto;
+}

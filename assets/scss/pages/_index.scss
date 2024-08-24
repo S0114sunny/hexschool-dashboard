@@ -1,3 +1,13 @@
-.index-title {
-  font-size: 100px;
-}
+/* 覆蓋 Bootstrap 下拉選單箭頭樣式 */
+.dropdown-toggle::after {
+    border-top: .3em solid green; /* 綠色箭頭 */
+    border-right: .3em solid transparent;
+    border-left: .3em solid transparent;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+  }
+
+  .card-title p{
+    font-size: 12px;
+    color: $gray-600;
+  }
